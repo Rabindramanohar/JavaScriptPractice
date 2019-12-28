@@ -11,3 +11,25 @@ let fullNameMakers = function(firstName, lastName) {
 }
 
 fullNameMakers('Jhone', 'Doe')
+
+let addNum = function(num1, num2) {
+    let result = num1+num2;
+    return result;
+}
+
+let res = addNum(3, 5);
+console.log(res);
+
+let Multiplyer = function(num1, num2) {
+    return num1*num2;
+}
+
+let mulRes = Multiplyer(3, 5);
+console.log('Multiplayer result: '+mulRes);
+
+// default function parameters
+let getUsers = function(name='unName', count=0) {
+    return 'Hello '+name+'you course count is: '+count;
+}
+
+console.log(getUsers('robin', 2));
