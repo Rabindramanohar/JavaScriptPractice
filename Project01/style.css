@@ -97,7 +97,11 @@ body{
     background-color: #2980b9;
     border-radius: 20px;
 }
-#container .controls #remove{
+#container .controls #remove {
+    background-color: #c0392b;
+    border-radius: 10px;
+}
+#container .controls #removeAll {
     background-color: #c0392b;
     border-radius: 10px;
 }
@@ -108,4 +112,8 @@ body{
 .visual{
         opacity: 1 !important;
         border-radius: 10px;
+}
+#textEdit{
+    color: red;
+    font-size: large;
 }
